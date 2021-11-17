@@ -20,6 +20,6 @@ int main()
 	printf("i=*&*&j: i=%d \n",i);
 	q=*p;
 	printf("q=*p: q=%d \n",q);
-	i=(*p)++ + (*q);
-	printf("i=(*p)++ + *q: i=%d \n",i);
+	//i=(*p)++ + (*q);
+	printf("i=(*p)++ + *q: i= Erro de segmentação \n");
 }
