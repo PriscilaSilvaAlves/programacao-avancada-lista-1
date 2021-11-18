@@ -16,13 +16,13 @@ void organizar(int num, float *array){
 	}
 }
 int main(void){
-	float *vetor;
+    float *vetor;
     int n;
     printf("Qual é o tamanho do vetor? \n");
     scanf("%d",&n);
     vetor=malloc(n*sizeof(float));
     for(int i=0; i<n; i++){
-		printf("Insira o elemento número %d: \n", i);
+	printf("Insira o elemento número %d: \n", i);
         scanf("%f", &vetor[i]);
     }
 	organizar(n,vetor);
