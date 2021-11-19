@@ -25,6 +25,9 @@ int main(void){
 		scanf("%f", &vetor2[j]);
 	}
 	somar(n,vetor1,vetor2,vetor3);
+	free(vetor1);
+	free(vetor2);
+	free(vetor3);
 	return 0;
 }
 
