@@ -26,5 +26,6 @@ int main(void){
 		scanf("%f", &vetor[i]);
 	}
 	organizar(n,vetor);
+	free(vetor);
 	return 0;
 }
